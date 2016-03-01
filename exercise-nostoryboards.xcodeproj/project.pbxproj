@@ -14,6 +14,8 @@
 		88C263A61C86492D001CBEA7 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C263A51C86492D001CBEA7 /* StartViewController.xib */; };
 		88C263A91C864E2F001CBEA7 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C263A71C864E2F001CBEA7 /* RedViewController.swift */; };
 		88C263AA1C864E2F001CBEA7 /* RedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C263A81C864E2F001CBEA7 /* RedViewController.xib */; };
+		88C263AD1C865ACD001CBEA7 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C263AB1C865ACD001CBEA7 /* GreenViewController.swift */; };
+		88C263AE1C865ACD001CBEA7 /* GreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C263AC1C865ACD001CBEA7 /* GreenViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		88C263A51C86492D001CBEA7 /* StartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
 		88C263A71C864E2F001CBEA7 /* RedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 		88C263A81C864E2F001CBEA7 /* RedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedViewController.xib; sourceTree = "<group>"; };
+		88C263AB1C865ACD001CBEA7 /* GreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		88C263AC1C865ACD001CBEA7 /* GreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 			children = (
 				88C263A51C86492D001CBEA7 /* StartViewController.xib */,
 				88C263A81C864E2F001CBEA7 /* RedViewController.xib */,
+				88C263AC1C865ACD001CBEA7 /* GreenViewController.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -90,6 +95,7 @@
 			children = (
 				88C263921C86473E001CBEA7 /* StartViewController.swift */,
 				88C263A71C864E2F001CBEA7 /* RedViewController.swift */,
+				88C263AB1C865ACD001CBEA7 /* GreenViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -154,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88C263AA1C864E2F001CBEA7 /* RedViewController.xib in Resources */,
+				88C263AE1C865ACD001CBEA7 /* GreenViewController.xib in Resources */,
 				88C2639B1C86473E001CBEA7 /* LaunchScreen.storyboard in Resources */,
 				88C263981C86473E001CBEA7 /* Assets.xcassets in Resources */,
 				88C263A61C86492D001CBEA7 /* StartViewController.xib in Resources */,
@@ -167,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88C263AD1C865ACD001CBEA7 /* GreenViewController.swift in Sources */,
 				88C263931C86473E001CBEA7 /* StartViewController.swift in Sources */,
 				88C263A91C864E2F001CBEA7 /* RedViewController.swift in Sources */,
 				88C263911C86473E001CBEA7 /* AppDelegate.swift in Sources */,

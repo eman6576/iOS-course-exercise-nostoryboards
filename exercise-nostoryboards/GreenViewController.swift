@@ -1,5 +1,5 @@
 //
-//  RedViewController.swift
+//  GreenViewController.swift
 //  exercise-nostoryboards
 //
 //  Created by Emanuel  Guerrero on 3/1/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RedViewController: UIViewController {
+class GreenViewController: UIViewController {
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
     }
@@ -32,15 +32,9 @@ class RedViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func loadStartView() {
-        let startViewController = StartViewController(nibName: "StartViewController", bundle: nil)
+    @IBAction func loadRedView() {
+        let redViewController = RedViewController(nibName: "RedViewController", bundle: nil)
         
-        self.presentViewController(startViewController, animated: true, completion: nil)
-    }
-    
-    @IBAction func loadGreenView() {
-        let greenViewController = GreenViewController(nibName: "GreenViewController", bundle: nil)
-        
-        super.presentViewController(greenViewController, animated: true, completion: nil)
+        self.presentViewController(redViewController, animated: true, completion: nil)
     }
 }
